@@ -33,3 +33,4 @@ The project adheres to **SOLID principles**, ensuring clear separation of concer
    git clone https://github.com/zavik001/maze.git
    cd maze
    ./mvnw clean verify
+   mvn clean compile exec:java -Dexec.mainClass="backend.academy.maze.Main"
